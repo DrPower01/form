@@ -7,16 +7,16 @@
 </head>
 <body>
 <div class="container">
-  <form>
+  <form action=form.php methode=post>
     <div class="first">
         <label>Enter your email:</label>
-        <input type="email" placeholder="enter your email">
+        <input type="email" placeholder="enter your email" value="email">
         <label>Enter your name:</label>
-        <input type="text" placeholder="enter your name">
+        <input type="text" placeholder="enter your name" value="name">
         <label>Password :</label>
-        <input type="password" placeholder="enter your password">
+        <input type="password" placeholder="enter your password" value="password">
         <label>Confirme ton mot de passe:</label>
-        <input type="password" placeholder="confirme ton mot de passe" >
+        <input type="password" placeholder="confirme ton mot de passe" value="password" >
         
         </div>  
 
@@ -33,9 +33,10 @@
         <input type="radio" name="unit">
         <br>
         <br>
-        <button >Inscription</button>
+        <button ><input type="submit" value="Inscription"></button>
     </div>  
     </div>     
     </form>
+    <a href="afficher.html"><button>voir base de donners</button></a>
 </body>
 </html>
